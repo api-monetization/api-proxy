@@ -4,3 +4,9 @@ account_id = "a826340b3b93189c9ebb7c0eaeba3c46"
 workers_dev = true
 route = ""
 zone_id = ""
+
+usage_model = "unbound"
+kv_namespaces = [
+  { binding = "API_CACHE", id = "4aa84f1ff6474c27893eefe09d17238d", preview_id = "e07a606bfbe94aae94989a3a18fe1999" },
+  { binding = "API_CRUD", id = "fe4d5fd52e7f4f9da61aa289d2d62ab4", preview_id = "e00098885c9f48d3839cbca24094335f" }
+]
